@@ -51,15 +51,23 @@
                                 <rect key="frame" x="163" y="640" width="75" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="New Game"/>
+                                <connections>
+                                    <action selector="newGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="39l-QR-whc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="card1" destination="Wgm-e9-Cg7" id="u5C-Cd-NJF"/>
+                        <outlet property="card2" destination="hOh-1Q-X8v" id="eED-h7-THw"/>
+                        <outlet property="card3" destination="tJL-PO-OqK" id="r6n-bm-dwb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+            <point key="canvasLocation" x="-1393" y="-230"/>
         </scene>
     </scenes>
     <resources>
