@@ -60,9 +60,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="card1" destination="Wgm-e9-Cg7" id="u5C-Cd-NJF"/>
+                        <outlet property="card0" destination="Wgm-e9-Cg7" id="vp3-hL-hfw"/>
+                        <outlet property="card1" destination="hOh-1Q-X8v" id="3P3-HU-bQm"/>
                         <outlet property="card2" destination="hOh-1Q-X8v" id="eED-h7-THw"/>
                         <outlet property="card3" destination="tJL-PO-OqK" id="r6n-bm-dwb"/>
+                        <outlet property="newGame" destination="dRU-wf-dHN" id="3fM-iz-E4m"/>
+                        <outlet property="text" destination="NC7-Th-3sS" id="deQ-Oz-0Mb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
